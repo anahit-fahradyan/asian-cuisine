@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1A1A1A;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.nav-color{
+    a{
+        color: black;
+        &:hover{
+            color:#F9D68A;
+        }
+    }
+
+}
+.hero-img{
+    width: 100%;
+    height: 1000px;
+    background-image: url("https://assets.nicepagecdn.com/11a8ddce/4267640/images/dietary-menu-healthy-vegan-salad-vegetables-broccoli-mushrooms-spinach-quinoa-bowl-flat-lay-top-view.jpg");
+}
+.hero-text{
+    background-color: #99E54D;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    h2{
+        font-size: 70px;
+        font-weight: bold;
+    }
+    p{
+        font-size: 30px;
+        font-weight: bold;
+
+    }
+}
+.card-hero{
+    background-color: transparent;
+    color: white;
+    margin: 0 213px;
+    padding: 128px 0;
+
+}
+
+.card-body{
+    color: white;
+    a{
+        text-decoration: none;
+        color:  #99E54D;
+
+    }
+    button{
+        background-color: #F1AE0E;
+        color: white;
+        border-radius: 30px;
+    }
+}
+.font-bg {
+    font-size: 61px;
+}
+
+.card-abs{
+    margin-top: 80px;
+    border-radius: 30px;
+    font-weight: bold;
+    position: relative;
+}
+.abs{
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 113px;
+    right: 110px;
+    margin: auto;
+}
+.benefits{
+    background-color: transparent;
+    margin: auto;
+    .beef-img{
+        width: 300px;
+        height: 300px;
+        img{
+            width: 1000px;
+            height: 100px;
+        }
+    }
+}
+.pasta{
+    width: 500px;
+    height: 500px;
+    object-fit: contain;
+}
